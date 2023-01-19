@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    background-color: steelblue;
+}
+main{
+    height: 85vh;
+    width: 100vw;
+        background-color: lightsteelblue;
+
+}
+footer{
+    height: 5vh;
+    width: 100vw;
+    background-color: steelblue;
+
+}
