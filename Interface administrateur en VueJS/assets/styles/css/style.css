@@ -202,7 +202,7 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
-#menu_utilisateur.hidden, #menu_produits.hidden, #menu_categorie.hidden {
+#utilisateur.hidden, #menu_produits.hidden, #menu_categorie.hidden {
   display: none;
 }
 
@@ -228,6 +228,13 @@ html {
 }
 
 #section2.masked {
+  display: none;
+}
+
+
+
+
+.cache{
   display: none;
 }
 

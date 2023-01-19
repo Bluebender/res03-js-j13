@@ -1,4 +1,4 @@
-import { Ul } from "./Ul.js";
+import { Nav } from "./Nav.js";
 
 let Aside = {  
     data() {  
@@ -20,15 +20,12 @@ let Aside = {
         }  
     },  
     components :{
-        Ul
+        Nav
     },
 
     template: `  
             <aside id="menu_nav">
-                <nav v-for="menu in menus">
-                    <h2>{{ menu.title }}</h2>
-                    <Ul :lis="this.menus.links" />
-                </nav>
+                <Nav :menus="this.menus" />
             </aside>
 
     `
